@@ -1,5 +1,4 @@
-from collections.abc import Callable
-from typing import List
+from typing import List, Callable
 
 
 def spell_combiner(spell1: Callable, spell2: Callable) -> Callable:
